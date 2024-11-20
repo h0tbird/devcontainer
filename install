@@ -1,9 +1,9 @@
 #!/bin/sh
 
 [ -f ~/.bashrc ] && {
-  cat ./dotfiles/aliases.sh >> ~/.bashrc
+  cat aliases.sh >> ~/.bashrc
 }
 
 [ -f ~/.zshrc ] && {
-  cat ./dotfiles/aliases.sh >> ~/.zshrc
+  cat aliases.sh >> ~/.zshrc
 }
