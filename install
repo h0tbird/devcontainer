@@ -1,3 +1,9 @@
 #!/bin/sh
 
-source ./dotfiles/aliases.sh
+[ -f ~/.bashrc ] && {
+  cat ./dotfiles/aliases.sh >> ~/.bashrc
+}
+
+[ -f ~/.zshrc ] && {
+  cat ./dotfiles/aliases.sh >> ~/.zshrc
+}
