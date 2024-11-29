@@ -6,4 +6,5 @@
 
 [ -f ~/.zshrc ] && {
   cat aliases.sh >> ~/.zshrc
+  cat autocomplete.sh >> ~/.zshrc
 }
