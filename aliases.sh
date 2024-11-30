@@ -1,3 +1,4 @@
+
 # General:
 alias ls='ls -hF --color --group-directories-first'
 alias l='ls -l'
