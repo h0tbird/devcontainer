@@ -2,8 +2,10 @@
 
 [ -f ~/.bashrc ] && {
   cat aliases.sh >> ~/.bashrc
+  cat functions.sh >> ~/.bashrc
 }
 
 [ -f ~/.zshrc ] && {
   cat aliases.sh >> ~/.zshrc
+  cat functions.sh >> ~/.zshrc
 }
