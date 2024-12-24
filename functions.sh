@@ -28,7 +28,7 @@ function mlw {
   watch '
     k --context kind-mnger-1 get po -A --field-selector=status.phase!=Succeeded; echo
     k --context kind-mnger-1 get svc -A --field-selector=spec.type=LoadBalancer;
-    blue "-------";
+    echo "\n-------\n";
     k --context kind-pizza-1 get po -A --field-selector=status.phase!=Succeeded; echo
     k --context kind-pizza-1 get svc -A --field-selector=spec.type=LoadBalancer;
   '
